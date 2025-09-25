@@ -71,6 +71,6 @@ R2 - which is the coeffictient of determination vlaues, represents the proportio
 Based on the scaled influence, the Coefficent of Determination value (R2), the relationship between the continous and categorical variables, age distibution anlysis and rating map scores i can conclude that'Age' has the hgihest affect on the bridges condition score. It is also the primary driver of the bridge condition, therefore i would advise the Texas Department of Transportation to focus and invest in this variable the most. Such as exploring non-linear models as it may capture any complex relationships between age and bridge conditions. And focus less on the designs of the bridge as that had the least affect based on the R2 values and their condition scores. More importanlty as already stated there are more variables outside of those investigated to be looked into as they account for 63.99% of the predictive power of the model
 
 ## How to use:
-- Open the Jupyter Notebook file `Staistics 2' to view the full analysis.  
+- Open the Jupyter Notebook file `Bridges-data-analysis.ipynb' to view the full analysis.  
 - Run the notebook cells in order to reproduce the data preparation, exploratory analysis, regression modelling, and results.  
-- The dataset (`tx19_bridges_sample.csv`) should be placed in the same directory as the notebook.
+- The dataset (`tx19_bridges_sample.csv`) should be placed in the same directory as the notebook. This dataset can be found in the files section of this repository.
