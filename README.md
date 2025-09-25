@@ -25,37 +25,39 @@ The dataset (`tx19_bridges_sample.csv`) used in the analysis comes from the US N
 ## Methods:
 1) Data Preparation:
    
--Loaded and cleaned ~34,000 bridge records.
+- Loaded and cleaned ~34,000 bridge records.
 
--Removed null/unknown ratings.
+- Removed null/unknown ratings.
 
--Created an Age variable from the construction year.
+- Created an Age variable from the construction year.
 
--Reduced small categories for Material and Design.
+- Reduced small categories for Material and Design.
 
--Excluded historic/very old bridges (treated differently in maintenance).
+- Excluded historic/very old bridges (treated differently in maintenance).
 
--Combined ratings into a single condition score.
+- Combined ratings into a single condition score.
+  
 
-3) Exploratory Data Analysis (EDA)
+2) Exploratory Data Analysis (EDA)
    
--Distribution plots of numeric variables (Age, Traffic, Trucks%).
+- Distribution plots of numeric variables (Age, Traffic, Trucks%).
 
--Correlation analysis between numeric predictors.
+- Correlation analysis between numeric predictors.
 
--Explored how categorical variables (Material, Design, Historic) relate to condition.
+- Explored how categorical variables (Material, Design, Historic) relate to condition.
 
--Relationships between categorical variables.
+- Relationships between categorical variables.
+  
 
-6) Regression Analysis
+3) Regression Analysis
    
--Dummy encoding of categorical variables.
+- Dummy encoding of categorical variables.
 
--Linear regression model to predict condition.
+- Linear regression model to predict condition.
 
--Examined coefficients to identify influential factors.
+- Examined coefficients to identify influential factors.
 
--Residual analysis to check model assumptions.
+- Residual analysis to check model assumptions.
 
 ## Results
 Figure 4:
